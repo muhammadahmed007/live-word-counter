@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Word Counter App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="container">
+    <h1 id="page-title">Live Word Counter Application using JavaScript</h1>
+    <hr id="title_hr">
+
+    <div id="form-wrapper">
+      <div class="left-panel panel">
+        <label for="contentField">Write your Text Content Below</label>
+        <br>
+        <textarea id="contentField" rows="10" placeholder="Write your text content here."></textarea>
+      </div>
+      <div class="right-panel panel">
+        <div class="counter-panel">
+          <div class="counter-title">Words</div>
+          <div class="counter-count" id="words_count">0</div>
+        </div>
+        <div class="counter-panel">
+          <div class="counter-title">Characters</div>
+          <div class="counter-count" id="characters_count">0</div>
+        </div>
+        <div class="counter-panel">
+          <div class="counter-title">Paragraphs</div>
+          <div class="counter-count" id="paragraphs_count">0</div>
+        </div>
+      </div>
+    </div>
+    <div id="grocery_list"></div>
+  <script src="script.js"></script>
+</body>
+</html>
